@@ -1,0 +1,66 @@
+.coupon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+  background-color: #444;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+.claim-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.claim-button:hover, .claim-button:focus {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.coupon-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.copy-button {
+  background: none;
+  border: none;
+  color: #FFD700;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.copy-button:hover, .copy-button:focus {
+  color: #FFC107;
+  transform: scale(1.1);
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.copied-message {
+  color: lightgreen;
+  margin-top: 10px;
+}
